@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+}
+
+ul.products {
+  width: 100%;
+  overflow: hidden;
+  padding: 35px 0 0 0;
+  margin: 0 auto;
+}
+
+li.products {
+  list-style: none;
+  float: left;
+  width: 28%;
+  margin-left: 50px;
+  position: relative;
+  border: 3px solid #82BBE4;
+}
+
+img.t-shirt {
+  width: 300px;
+  opacity: 0.90;
+  height: auto;
+  margin: 30px 0 30px 25px;
+  position: relative;
+}
+
+div.shop-box {
+  border-top: 3px solid #82BBE4;
+}
+
+ul.icons {
+  overflow: hidden;
+  padding-left: 0;
+  width: 100%;
+}
+
+p.icons {
+  font-size: 18px;
+  margin: 0;
+}
+
+li.icons {
+  list-style: none;
+  float: left;
+  height: auto;
+  line-height: 50px;
+  width: 20%;
+  border-left: 3px solid #82BBE4;
+}
+
+li.icons:first-child {
+  border: none;
+}
+
+li.icons:hover,
+i.fa-undo:hover {
+  background: #82BBE4;
+  color: #fff;
+}
+
+p {
+  padding-left: 30%;
+}
+
+p, i.fa {
+  color: #82BBE4;
+}
+
+i.fa {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 33%;
+}
+
+i.fa:hover,
+p:hover {
+  color: #fff;
+}
+
+i.fa-undo {
+  border-left: 3px solid #82BBE4;
+  border-bottom: 3px solid #82BBE4;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 6px;
+}
+
+i#square.fa.fa-square {
+  font-size: 35px;
+  position: relative;
+  top: 6px;
+  right: 2px;
+  padding: 0;
+  margin-left: 20px;
+}
