@@ -162,7 +162,7 @@ li.triangle {
   list-style: none;
 }
 
-span#white-triangle {
+span#white-triangle-shirt {
   width: 0;
   height: 0;
   border-style: solid;
@@ -174,7 +174,7 @@ span#white-triangle {
   left: 31px;
 }
 
-span#blue-triangle {
+span#blue-triangle-shirt {
   width: 0;
   height: 0;
   border-style: solid;
@@ -184,7 +184,6 @@ span#blue-triangle {
   bottom: -15px;
   left: 30px;
 }
-
 
 p.shirt-sizes {
   position: relative;
@@ -267,33 +266,60 @@ ul.shirt-sizes {
 }
 
 li.shirt-colors {
-  float: left;
+  position: relative;
+  display: inline-block;
+  line-height: 30px;
+}
+
+div.color-menu {
+  padding-left: 8px;
+}
+
+li.shirt-colors:hover div.shirt-colors {
+  display: block;
+}
+
+
+div.shirt-colors {
+  border: 3px solid #5ca4d6;
+  background: #fff;
+  display: none;
+  width: 88px;
+  position: absolute;
+  top: -89px;
+  left: -9px;
+  z-index: 5;
+}
+
+li.shirt-colors:first-child {
+  padding-top: 7px;
+}
+
+ul.shirt-colors {
+  padding: 0;
+  height: 83px;
 }
 
 #blue-square {
 	width: 30px;
 	height: 30px;
-  border: 3px solid #fff;
 	background: #82BBE4;
 }
 
 #pink-square {
 	width: 30px;
 	height: 30px;
-  border: 3px solid #fff;
 	background: #d583ac;
 }
 
 #yellow-square {
 	width: 30px;
 	height: 30px;
-  border: 3px solid #fff;
 	background: #deb17e;
 }
 
 #green-square {
 	width: 30px;
 	height: 30px;
-  border: 3px solid #fff;
 	background: #8bb992;
 }
