@@ -87,7 +87,7 @@ i.fa {
 }
 
 i.fa:hover,
-p:hover {
+p.icons:hover {
   color: #fff;
 }
 
@@ -128,4 +128,56 @@ li.product-price {
   float: right;
   padding-right: 5px;
   font-weight: bold;
+}
+
+li.shirt-colors,
+li.shirt-sizes {
+  list-style: none;
+}
+
+li.shirt-sizes {
+  position: relative;
+  display: inline-block;
+}
+
+div.shirt-sizes {
+  background: red;
+  width: 100%;
+}
+
+p.shirt-sizes {
+  margin: 0;
+}
+
+li.shirt-colors {
+  float: left;
+}
+
+
+#blue-square {
+	width: 30px;
+	height: 30px;
+  border: 3px solid #fff;
+	background: #82BBE4;
+}
+
+#pink-square {
+	width: 30px;
+	height: 30px;
+  border: 3px solid #fff;
+	background: #d583ac;
+}
+
+#yellow-square {
+	width: 30px;
+	height: 30px;
+  border: 3px solid #fff;
+	background: #deb17e;
+}
+
+#green-square {
+	width: 30px;
+	height: 30px;
+  border: 3px solid #fff;
+	background: #8bb992;
 }
