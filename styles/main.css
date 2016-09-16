@@ -23,7 +23,6 @@ ul.products {
   margin: 0 auto;
 }
 
-
 li.products {
   list-style: none;
   margin-left: 50px;
@@ -53,6 +52,7 @@ ul.icons {
 p.icons {
   font-size: 18px;
   margin: 0;
+  line-height: 50px;
 }
 
 li.icons {
@@ -141,23 +141,102 @@ li.shirt-sizes {
 }
 
 div.shirt-sizes {
-  background: red;
-  width: 100%;
+  border: 3px solid #5ca4d6;
+  background: #fff;
+  width: 88px;
   position: absolute;
-  top: -50px;
-  bottom: 0;
+  top: -206px;
+  left: -10px;
   z-index: 5;
 }
 
+.icon-t-shirt {
+  color: #5ca4d6;
+}
+
 p.shirt-sizes {
-  margin: 0;
+  position: relative;
+}
+
+li.icons.shirt-sizes {
+  line-height: 30px;
+}
+p.x-large, p.large, p.medium, p.small {
+  margin: 0 0 0 11px;
+}
+
+p.x-large {
+  padding-top: 27px;
+  padding-left: 4px;
+}
+
+p.large {
+  padding: 5px 0 0 7px;
+}
+
+p.medium {
+  padding: 5px 0 0 10px;
+}
+
+p.small {
+  padding: 5px 0 20px 13px;
+}
+
+#x-large {
+  font-size: 10px;
+  position: absolute;
+  top: 31px;
+  left: 24px;
+}
+
+#large {
+  font-size: 10px;
+  position: absolute;
+  top: 6px;
+  left: 26px;
+}
+
+#medium {
+  font-size: 10px;
+  position: absolute;
+  top: 6px;
+  left: 25px;
+}
+
+#small {
+  font-size: 10px;
+  position: absolute;
+  top: 6px;
+  left: 25px;
+}
+
+#icon-x-large, #icon-large, #icon-medium, #icon-small {
+  line-height: 25px;
+}
+
+#icon-x-large {
+  font-size: 37px;
+}
+
+#icon-large {
+  font-size: 32px;
+}
+
+#icon-medium {
+  font-size: 27px;
+}
+
+#icon-small {
+  font-size: 22px;
+}
+
+ul.shirt-sizes {
   padding: 0;
 }
 
 li.shirt-colors {
   float: left;
 }
-
 
 #blue-square {
 	width: 30px;
