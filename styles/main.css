@@ -6,20 +6,30 @@ body {
   font-family: verdana;
 }
 
+div.product-name {
+  display: inline;
+}
+
+p.product-name,
+p.product-price {
+  display: inline;
+  padding: 0;
+}
+
 ul.products {
-  width: 100%;
-  overflow: hidden;
+  float: left;
+  width: 33%;
   padding: 35px 0 0 0;
   margin: 0 auto;
 }
 
+
 li.products {
   list-style: none;
-  float: left;
-  width: 28%;
   margin-left: 50px;
   position: relative;
-  border: 3px solid #82BBE4;
+  margin-right: 0;
+  border: 3px solid #5ca4d6;
 }
 
 img.t-shirt {
@@ -31,7 +41,7 @@ img.t-shirt {
 }
 
 div.shop-box {
-  border-top: 3px solid #82BBE4;
+  border-top: 3px solid #5ca4d6;
 }
 
 ul.icons {
@@ -51,31 +61,29 @@ li.icons {
   height: auto;
   line-height: 50px;
   width: 20%;
-  border-left: 3px solid #82BBE4;
+  border-left: 3px solid #5ca4d6;
 }
 
 li.icons:first-child {
-  border: none;
+  border-left: none;
 }
 
 li.icons:hover,
 i.fa-undo:hover {
-  background: #82BBE4;
+  background: #5ca4d6;
   color: #fff;
 }
 
 p {
   padding-left: 30%;
-}
-
-p, i.fa {
-  color: #82BBE4;
+  color: #5ca4d6;
 }
 
 i.fa {
   font-weight: bold;
   font-size: 20px;
   padding-left: 33%;
+  color: #5ca4d6;
 }
 
 i.fa:hover,
@@ -84,19 +92,40 @@ p:hover {
 }
 
 i.fa-undo {
-  border-left: 3px solid #82BBE4;
-  border-bottom: 3px solid #82BBE4;
+  border-left: 3px solid #5ca4d6;
+  border-bottom: 3px solid #5ca4d6;
   position: absolute;
   top: 0;
   right: 0;
   padding: 6px;
 }
 
-i#square.fa.fa-square {
-  font-size: 35px;
-  position: relative;
-  top: 6px;
-  right: 2px;
-  padding: 0;
-  margin-left: 20px;
+li #square {
+  margin: 10px 0 10px 20px;
+}
+#square {
+	width: 30px;
+	height: 30px;
+  border: 3px solid #fff;
+	background: #82BBE4;
+}
+
+li.product-name,
+li.product-price {
+  list-style: none;
+  color: #5ca4d6;
+  padding-top: 15px;
+  font-size: 27px;
+  font-family: "avenir";
+}
+
+li.product-name {
+  float: left;
+  padding-left: 15px;
+}
+
+li.product-price {
+  float: right;
+  padding-right: 5px;
+  font-weight: bold;
 }
