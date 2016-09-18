@@ -19,7 +19,7 @@ p.product-price {
 
 ul.products {
   float: left;
-  width: 33%;
+  width: 410px;
   padding: 35px 0 0 0;
   margin: 0 auto;
 }
@@ -33,7 +33,7 @@ li.products {
 }
 
 img.t-shirt {
-  width: 300px;
+  width: 81%;
   opacity: 0.90;
   height: auto;
   margin: 30px 0 30px 25px;
@@ -309,7 +309,7 @@ div.shirt-colors {
   top: -114px;
   left: -9px;
   z-index: 5;
-  transition: opacity .5s ease-out;
+  transition: opacity .3s ease-out;
 }
 
 li.shirt-colors:first-child {
